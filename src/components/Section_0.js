@@ -21,7 +21,7 @@ we think have no choice.  </div>
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    margin-bottom: 10vh;
+                    margin-bottom: 20vh;
                 }
 
                 .contentWritten {
