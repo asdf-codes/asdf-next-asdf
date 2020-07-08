@@ -4,7 +4,7 @@ export default function Intro() {
     return (
         <>
          <div>
-             <div className="container">
+             <div className="container-intro">
                  <div className="content">
                      <div classNmae="contentText">
                      <div className={utilStyles.headingXl}> We help people put ideas on the internet </div>
@@ -19,8 +19,8 @@ export default function Intro() {
                     text-align: center;
                 }
                 
-                .container {
-                    height: 50vh;
+                .container-intro {
+                    height: 90vh;
                     display: flex;
                     justify-content: center;
                     align-items: center;

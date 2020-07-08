@@ -33,7 +33,7 @@ export default function Button() {
                     font-weight: 400;   
                     text-align: center;
                     transition: 0.3s;
-                    width: max(15rem, 90%);
+                    width: min(36rem, 90%);
                     position: fixed;
                     bottom: 0;
                     margin: 2rem 0rem;
