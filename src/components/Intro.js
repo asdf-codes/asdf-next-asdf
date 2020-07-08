@@ -18,6 +18,7 @@ export default function Intro() {
                 .contentText {
                     text-align: center;
                 }
+                
                 .container {
                     height: 50vh;
                     display: flex;

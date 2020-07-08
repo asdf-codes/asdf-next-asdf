@@ -1,12 +1,19 @@
+import Link from 'next/link'
+
 export default function Button() {
     return(
         <div className="hello">
+            <Link href='/collaborate' >
             <button>
+                
                 collaborate
-            </button>
+             </button>
+             </Link>
             <style jsx>{` 
                 .hello {
-                    width: 100%;
+                    width: 100%; 
+                    display: flex;
+                    justify-content: center;
                 }
 
                 button {
@@ -18,7 +25,6 @@ export default function Button() {
                     cursor: pointer;
                     padding: 0.7rem;
                     min-width: 125px;    
-                    width: max(100%, 250px);
                     font-family: Courier;
                     font-style: normal;
                     font-weight: bold;
@@ -27,6 +33,12 @@ export default function Button() {
                     font-weight: 400;   
                     text-align: center;
                     transition: 0.3s;
+                    width: max(15rem, 90%);
+                    position: fixed;
+                    bottom: 0;
+                    margin: 1rem;
+                    justify-content: center;
+                    display: flex;
                 }
 
                 button:hover {

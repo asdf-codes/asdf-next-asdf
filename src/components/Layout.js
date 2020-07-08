@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from './layout.module.css'
-import Button from './Button'
+import Header from './Header'
+
 
 
 const name = '613'
@@ -26,9 +27,10 @@ export default function Layout({children}) {
                 <meta 
                     name="twitter:card" content="summary_large_image" />
             </Head>
+            <Header/>
             <main>{children}</main>
             <div className={styles.bottom}>
-                <Button/>
+                
             </div>
         </div>
     )

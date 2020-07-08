@@ -15,8 +15,7 @@ We can Do anything. we just help you explore the options  </div>
 
          
             <style jsx>{` 
-                .container {
-                    
+                .container {                    
                     height: 50vh;
                     display: flex;
                     justify-content: center;
