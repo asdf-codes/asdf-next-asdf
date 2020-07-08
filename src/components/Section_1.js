@@ -7,13 +7,21 @@ export default function Section() {
              <div className="container">
                  <div className="content">
                     <div className="contentVisual"> <Path_1/></div>
-                    <div className="contentWritten"> The possibilities are endless. 
+                    <div className="contentWritten">  The possibilities are endless. <br></br> <br></br> <div className='bold'> we just help you explore the options </div>
 </div>
                  </div>
              </div>
 
          
             <style jsx>{` 
+
+                
+                .bold {
+                    font-weight: bold;
+                    font-style: italic;
+ 
+                }
+
                 .container {
                     height: 50vh;
                     display: flex;

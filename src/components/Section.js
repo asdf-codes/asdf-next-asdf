@@ -7,9 +7,9 @@ export default function Section() {
              <div className="container">
                  <div className="content">
                     <div className="contentVisual"> <Path/></div>
-                    <div className="contentWritten">eventually we recogize that 
-we can go anywhere 
-We can Do anything. we just help you explore the options  </div>
+                    <div className="contentWritten">eventually you recogize that: <br></br><br></br>
+                    <div className="bold"> You can go anywhere. <br></br>
+You can Do anything. </div> </div>
                  </div>
              </div>
 
@@ -31,6 +31,10 @@ We can Do anything. we just help you explore the options  </div>
                     text-transform: uppercase;
                 }
                 
+                .bold {
+                    font-weight: bold;
+                    font-style: italic;
+                }
             `}</style>
          </div>
         </>

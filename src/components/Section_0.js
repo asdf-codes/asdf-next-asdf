@@ -7,15 +7,20 @@ export default function Section() {
              <div className="container">
                  <div className="content">
                     <div className="contentVisual"> <Path_0/></div>
-                    <div className="contentWritten"> We often think there are only two ways of doing something and 
+                    <div className="contentWritten">DO you ever fee like you're out of options? <br></br>  <br></br>
 
-we feel trapped. 
-we think have no choice.  </div>
+                    <div className="bold"> You feel trapped. <br></br> 
+You think have no choice. </div> </div>
                  </div>
              </div>
 
          
             <style jsx>{` 
+
+                .bold {
+                    font-weight: bold;
+                    font-style: italic;
+                }
                 .container {
                     height: 50vh;
                     display: flex;

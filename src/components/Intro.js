@@ -7,13 +7,19 @@ export default function Intro() {
              <div className="container-intro">
                  <div className="content">
                      <div classNmae="contentText">
-                     <div className={utilStyles.headingXl}> We help people put ideas on the internet </div>
+                     <div className={utilStyles.headingXl}> We help people put <p className="inline">ideas on the internet </p> </div>
                      </div>
                  </div>
              </div>
 
          
             <style jsx>{` 
+
+                .inline {
+                    display: inline-block;
+                    font-style: italic;
+                    text-decoration-line: underline;
+                }
 
                 .contentText {
                     text-align: center;
