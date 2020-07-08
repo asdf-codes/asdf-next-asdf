@@ -17,7 +17,7 @@ export default function Button() {
                 }
 
                 button {
-                    margin-top: 1rem;
+                    
                     border: none;
                     background-color: black;
                     color: white;
@@ -36,7 +36,7 @@ export default function Button() {
                     width: max(15rem, 90%);
                     position: fixed;
                     bottom: 0;
-                    margin: 1rem;
+                    margin: 2rem 0rem;
                     justify-content: center;
                     display: flex;
                 }

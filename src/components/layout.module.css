@@ -1,5 +1,5 @@
 .container {
-    max-width: 38rem;
+    width: min(38rem, 90%);
     padding: 4rem 1rem;
     margin: 0 auto;
     grid-template-rows: 0.5fr 1fr 100px;

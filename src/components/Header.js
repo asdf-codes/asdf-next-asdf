@@ -12,7 +12,7 @@ export default function Header() {
                     width: 100%;
                     position: fixed;
                     top: 0;
-                    margin: 2rem;
+                    margin: 2rem 0rem;
                 }
             `}</style>
         </>
