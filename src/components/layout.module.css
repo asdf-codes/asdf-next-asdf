@@ -1,0 +1,23 @@
+.container {
+    max-width: 38rem;
+    padding: 4rem 1rem;
+    margin: 0 auto;
+    grid-template-rows: 0.5fr 1fr 100px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+  }
+
+.bottom {
+  width: min(38rem, 90%);
+  position: fixed;
+  bottom: 0;
+  margin: 0 auto;
+  padding: 1rem;
+  justify-content: center;
+  display: flex;
+}
+
+  
+  
