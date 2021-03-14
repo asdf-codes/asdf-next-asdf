@@ -93,7 +93,7 @@ export default function Clients() {
               justify-content: center;
               align-items: center;
 
-              padding-bottom: 0rem;
+              padding-bottom: 10rem;
             }
           }
         `}</style>
