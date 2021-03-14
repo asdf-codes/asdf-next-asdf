@@ -91,12 +91,12 @@ export default function Clients() {
 
           @media only screen and (max-width: 700px) {
             .container {
-              height: 50vh;
+              min-height: 50vh;
               display: flex;
               justify-content: center;
               align-items: center;
               margin-top: 20rem;
-              margin-bottom: 28rem;
+              margin-bottom: 10rem;
             }
           }
         `}</style>
