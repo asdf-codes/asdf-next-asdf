@@ -1,41 +1,41 @@
-import utilStyles from '../styles/utils.module.css'
+import utilStyles from '../styles/utils.module.css';
 
 export default function Intro() {
-    return (
-        <>
-         <div>
-             <div className="container-intro">
-                 <div className="content">
-                     <div classNmae="contentText">
-                     <div className={utilStyles.headingXl}> We help people put <p className="inline">ideas on the internet </p> </div>
-                     </div>
-                 </div>
-             </div>
+  return (
+    <>
+      <div>
+        <div className="container-intro">
+          <div className="content">
+            <div classNmae="contentText">
+              <div className={utilStyles.headingXl}>
+                {' '}
+                We help people put{' '}
+                <p className="inline">ideas on the internet </p>{' '}
+              </div>
+            </div>
+          </div>
+        </div>
 
-         
-            <style jsx>{` 
+        <style jsx>{`
+          .inline {
+            display: inline-block;
+            font-style: italic;
+            text-decoration-line: underline;
+            margin: 0.001;
+          }
 
-                .inline {
-                    display: inline-block;
-                    font-style: italic;
-                    text-decoration-line: underline;
-                    margin: 0;
-                }
+          .contentText {
+            text-align: center;
+          }
 
-                .contentText {
-                    text-align: center;
-                }
-                
-                .container-intro {
-                    height: 90vh;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    
-                }
-                
-            `}</style>
-         </div>
-        </>
-    )
+          .container-intro {
+            height: 90vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        `}</style>
+      </div>
+    </>
+  );
 }
