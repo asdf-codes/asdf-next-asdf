@@ -21,7 +21,7 @@ export default function Intro() {
             display: inline-block;
             font-style: italic;
             text-decoration-line: underline;
-            margin: 0.001;
+            margin: 0;
           }
 
           .contentText {

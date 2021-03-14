@@ -78,7 +78,7 @@ export default function Clients() {
             display: flex;
             justify-content: center;
             align-items: center;
-            padding: 25rem 0;
+            margin-bottom: 10rem;
           }
 
           .content {
@@ -87,6 +87,16 @@ export default function Clients() {
             gap: 0.4rem;
             justify-content: space-around;
             align-content: center;
+          }
+
+          @media only screen and (max-width: 700px) {
+            .container {
+              height: 50vh;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin-bottom: 25rem;
+            }
           }
         `}</style>
       </div>
