@@ -23,8 +23,8 @@ export default function Clients() {
                   lassName="logo"
                   src="/Logo3.png"
                   alt="logo1"
-                  width={146.63}
-                  height={72.08}
+                  width={251}
+                  height={58.75}
                 />
               </div>
               <div className="logo">
@@ -43,19 +43,16 @@ export default function Clients() {
                 <Image
                   src="/Logo4.png"
                   alt="logo1"
-                  width={251}
-                  height={58.75}
+                  width={146.63}
+                  height={72.08}
                 />
               </div>
               <div className="logo">
-                <Image src="/Logo5.png" alt="logo1" width={66} height={77.59} />
-              </div>
-              <div className="logo">
                 <Image
-                  src="/Logo6.png"
+                  src="/Logo5.png"
                   alt="logo1"
-                  width={240}
-                  height={75.97}
+                  width={251}
+                  height={58.75}
                 />
               </div>
             </div>
@@ -78,7 +75,7 @@ export default function Clients() {
             display: flex;
             justify-content: center;
             align-items: center;
-            margin-bottom: 5rem;
+            margin-bottom: 10rem;
           }
 
           .content {
@@ -96,7 +93,7 @@ export default function Clients() {
               justify-content: center;
               align-items: center;
 
-              padding-bottom: 10rem;
+              padding-bottom: 0rem;
             }
           }
         `}</style>
