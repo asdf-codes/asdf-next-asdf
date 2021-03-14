@@ -95,8 +95,8 @@ export default function Clients() {
               display: flex;
               justify-content: center;
               align-items: center;
-              margin-top: 20rem;
-              margin-bottom: 10rem;
+
+              padding-bottom: 10rem;
             }
           }
         `}</style>
