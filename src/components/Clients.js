@@ -74,11 +74,11 @@ export default function Clients() {
           }
 
           .container {
-            height: 50vh;
+            min-height: 50vh;
             display: flex;
             justify-content: center;
             align-items: center;
-            margin-bottom: 10rem;
+            margin-bottom: 5rem;
           }
 
           .content {
@@ -95,7 +95,8 @@ export default function Clients() {
               display: flex;
               justify-content: center;
               align-items: center;
-              margin-bottom: 25rem;
+              margin-top: 20rem;
+              margin-bottom: 28rem;
             }
           }
         `}</style>
